@@ -8,27 +8,38 @@
       Step-by Step Method :
         1. We will start by creating blank project and invoke Icepak.
         2. Selecting Pacakage type -> Toolkit ->> Geometry ->>> Packages
+           
            ![Image](https://github.com/user-attachments/assets/a233f63c-0f83-48c3-a335-798b736a82e9)
+           
         3.Selecting Package type and Dimension 
           3.1 Dimensions of PKG (Here retaining the default) : 15 * 15 * 1.6 (mm)
           3.2 Die parameter : Usually its ½ of pkg ; Material & Power is selected based on the input requirement.
-           ![Image](https://github.com/user-attachments/assets/500d1385-52e3-4fa1-8409-7066b6722dc8) 
+     
+           ![Image](https://github.com/user-attachments/assets/500d1385-52e3-4fa1-8409-7066b6722dc8)
+
+
         4. Now we will go for setting up environment for Thermal Simulation
             Thermal condition for Die , is the Power which is being generated in the Die.
           4.1 Go to Die Source , add the total power. 
               Die on the top : where we have added the Power
+           
            ![Image](https://github.com/user-attachments/assets/adb6a1bd-2583-4e1f-b100-183b29baca4e)
+
           4.2 Source Boundary condition :  Temperature  which is being dissipated.
     		      Substrate : Open , it sees an ambient temperature.
         6. Add Monitors 
             Add on Die , Substrate & Underfill :  Assign Monitor -> Point ->> Temperature
         7. Mesh Generation
             go to Simulation -> Generate Mesh
+           
            ![Image](https://github.com/user-attachments/assets/c6b80106-382d-470c-ab80-08273c9318f9)
+
+
         9. Analysis : Add Solution setup , Validate , Analyze All
         10. Plotting the result
            Select the complete package and plot fields.
+
             ![Image](https://github.com/user-attachments/assets/41fece33-bcf8-4917-a9f6-42303cf6dc99)
 
            
-  2. Package Design and Modelling 
+  3. Package Design and Modelling 
