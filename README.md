@@ -20,14 +20,15 @@
 
         4. Now we will go for setting up environment for Thermal Simulation
             Thermal condition for Die , is the Power which is being generated in the Die.
-          4.1 Go to Die Source , add the total power. 
+        4.1 Go to Die Source , add the total power. 
               Die on the top : where we have added the Power
+        4.2 Source Boundary condition :  Temperature  which is being dissipated.
+    		      Substrate : Open , it sees an ambient temperature.
            
            ![Image](https://github.com/user-attachments/assets/adb6a1bd-2583-4e1f-b100-183b29baca4e)
 
 
-         4.2 Source Boundary condition :  Temperature  which is being dissipated.
-    		      Substrate : Open , it sees an ambient temperature.
+         
         6. Add Monitors 
             Add on Die , Substrate & Underfill :  Assign Monitor -> Point ->> Temperature
         7. Mesh Generation
