@@ -15,7 +15,7 @@
           3.1 Dimensions of PKG (Here retaining the default) : 15 * 15 * 1.6 (mm)
           3.2 Die parameter : Usually its ½ of pkg ; Material & Power is selected based on the input requirement.
      
-           ![Image](https://github.com/user-attachments/assets/500d1385-52e3-4fa1-8409-7066b6722dc8)
+     ![Image](https://github.com/user-attachments/assets/500d1385-52e3-4fa1-8409-7066b6722dc8)
 
 
         4. Now we will go for setting up environment for Thermal Simulation
@@ -25,7 +25,8 @@
            
            ![Image](https://github.com/user-attachments/assets/adb6a1bd-2583-4e1f-b100-183b29baca4e)
 
-          4.2 Source Boundary condition :  Temperature  which is being dissipated.
+
+         4.2 Source Boundary condition :  Temperature  which is being dissipated.
     		      Substrate : Open , it sees an ambient temperature.
         6. Add Monitors 
             Add on Die , Substrate & Underfill :  Assign Monitor -> Point ->> Temperature
