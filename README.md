@@ -63,11 +63,9 @@ Starting with model design –> First model is the “Die” ->> Substrate
     Change material for Die : Edit -> Silicon
 
     S1 : Creation of Die 
-    ![image](https://github.com/user-attachments/assets/9f855b39-8608-470c-a927-90b5686ce8d8)
+ ![Image](https://github.com/user-attachments/assets/e948d3b9-0727-448b-b74b-475ed0119f9f)
 
-    ![image](https://github.com/user-attachments/assets/92e56dcf-9101-4f51-ad05-a4a85a6f95d2)
-
-    ![image](https://github.com/user-attachments/assets/1d4d4050-11cb-4193-8788-46867062dfc9)
+ ![Image](https://github.com/user-attachments/assets/58109c5a-d88c-4491-8a85-456f40bfd5cd)
 
 
 
@@ -78,13 +76,7 @@ Starting with model design –> First model is the “Die” ->> Substrate
     Material of Substrate : FR4_epoxy
 
     S2 : Creation of Substrate
-    ![image](https://github.com/user-attachments/assets/e3f4b6fb-1df2-4196-9733-c29fef84ce79)
-
-    ![image](https://github.com/user-attachments/assets/3febeb53-3731-417b-a68c-b234e8adaf16)
-
-    ![image](https://github.com/user-attachments/assets/49645ce8-84cb-44ca-9242-f3cd28e2923c)
-
-    ![image](https://github.com/user-attachments/assets/fa364fc4-d4b5-466c-b05c-2ef539846abb)
+    
 
 
 
@@ -102,9 +94,6 @@ Starting with model design –> First model is the “Die” ->> Substrate
     Position -> (0.2,-0.8,-0.1) ; Size -> 0.2 * 0.2  | For Substrate Bond Pad
 		    (Since Substrate is at depth of -0.1)
 
-      ![image](https://github.com/user-attachments/assets/0eea3875-8fc8-4680-9cc4-4b004d990c9b)
-
-      ![image](https://github.com/user-attachments/assets/b3bda1bc-eb4f-4e8e-80d8-a2e771ba63b2)
 
 
       
@@ -115,9 +104,7 @@ Starting with model design –> First model is the “Die” ->> Substrate
     Start from middle of Die to middle of Substrate.
     Material->Gold
 
-    ![image](https://github.com/user-attachments/assets/aadde12c-f6b4-4d1c-bfd7-46df60796c00)
-
-    ![image](https://github.com/user-attachments/assets/d48f99ef-53b2-4fa4-bca7-876376d3eeea)
+    
 
 
     
