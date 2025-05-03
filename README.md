@@ -109,9 +109,9 @@ S2 : Creation of Substrate
 
 
 6.  Bond Wire : There are different bond wire specification like JEDEC. 
-   * go to Draw -> Bond wire
-   * Start from middle of Die to middle of Substrate.
-   *  Material->Gold
+   	* go to Draw -> Bond wire
+  	* Start from middle of Die to middle of Substrate.
+   	*  Material->Gold
 
 
  ![Image](https://github.com/user-attachments/assets/a0ed0759-0a94-4366-b2aa-b456c9957cde)
@@ -119,8 +119,20 @@ S2 : Creation of Substrate
 
  ![Image](https://github.com/user-attachments/assets/12316dac-5efc-4aa6-901d-c20c3319abe2)
 
- 
 
+7. Molding
+   
+	* Depends on package thickness.Molding will go over the entire substrate.
+	* Orient -> Rectangle->>Substrate Region
+	* Thickness -> 1.2mm
+ 	* Material -> Mold compound “epoxy”
+          Thickness of mold compound higher than wire bond as laser marking for each package.
+          This affects some area at the top of package. 
+
+![Image](https://github.com/user-attachments/assets/f6c06b8a-8d7a-4083-9282-05772957ddca)
+
+
+![Image](https://github.com/user-attachments/assets/1bdc7666-5906-4dff-9298-8bc06977700b)
     
 
 
