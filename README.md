@@ -71,39 +71,50 @@ S1 : Creation of Die
 
 
  2.  Creation of Substrate :
-    a. Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
-    b. Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
-    c. Rearrange the axis , so that substrate on the other side of Die.
-    d. Material of Substrate : FR4_epoxy
+    	* Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
+    	* Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
+    	* Rearrange the axis , so that substrate on the other side of Die.
+    	* Material of Substrate : FR4_epoxy
 
     S2 : Creation of Substrate
+
+    ![Image](https://github.com/user-attachments/assets/55e068bc-dcf5-49ff-b1a4-13e9321b8ad2)
+
+
+
+3.  Creation of Die Attach material and Epoxy fill :
+    	* Die attach material to be added between Die and Substrate.
+    	* Create rectangle -> Size 3*3 with O(0,0,-0.1)
+    	* Material of Die Attach : modified epoxy
+
+
+    ![Image](https://github.com/user-attachments/assets/d3823dac-e6ad-48ff-b65d-67b515d5e750)
+
+    ![Image](https://github.com/user-attachments/assets/94a194a6-0622-4ff3-999e-994e572d4395)
+    
     
 
+5.  Creation of Wire Bonding :
+	* Bonds need to be created between two bond pads. One on die other on substrate.
+	* Bond pad creation – Creation of rectangle 
+	* Position -> (0.2,0,2,0.2) ; Size -> 0.2 * 0.2  | For Die Bond Pad
+	* Adding thickness : Rectangle -> Modeler ->> Surface ->>> Thicken Sheet (0.005mm)
+	* Two Bond Pads : of same config one on Die other on Substrate
+	* Position -> (0.2,-0.8,-0.1) ; Size -> 0.2 * 0.2  | For Substrate Bond Pad
+			    (Since Substrate is at depth of -0.1)
 
-
-  Creation of Die Attach material and Epoxy fill :
-    Die attach material to be added between Die and Substrate.
-    Create rectangle -> Size 3*3 with O(0,0,-0.1)
-    Material of Die Attach : modified epoxy
-
-  Creation of Wire Bonding :
-    Bonds need to be created between two bond pads. One on die other on substrate.
-    Bond pad creation – Creation of rectangle 
-    Position -> (0.2,0,2,0.2) ; Size -> 0.2 * 0.2  | For Die Bond Pad
-    Adding thickness : Rectangle -> Modeler ->> Surface ->>> Thicken Sheet (0.005mm)
-    Two Bond Pads : of same config one on Die other on Substrate
-    Position -> (0.2,-0.8,-0.1) ; Size -> 0.2 * 0.2  | For Substrate Bond Pad
-		    (Since Substrate is at depth of -0.1)
-
-
-
+![Image](https://github.com/user-attachments/assets/a8ca053e-1a12-4e35-bb97-463383f30564)
       
 
 
-  Bond Wire : There are different bond wire specification like JEDEC. 
-    go to Draw -> Bond wire
-    Start from middle of Die to middle of Substrate.
-    Material->Gold
+6.  Bond Wire : There are different bond wire specification like JEDEC. 
+   * go to Draw -> Bond wire
+   * Start from middle of Die to middle of Substrate.
+   *  Material->Gold
+
+    ![Image](https://github.com/user-attachments/assets/5e2b22b0-5ea1-4d84-ab8d-1b43b5c8ea7b) 
+
+    ![Image](https://github.com/user-attachments/assets/d498c950-024d-4150-bb32-5840677316f4)
 
     
 
