@@ -56,11 +56,11 @@ We will build the model in Q3D to extract the parasitic from the design.
 
 Invoke Q3D from Ansys AEDT window.
 Starting with model design –> First model is the “Die” ->> Substrate
-  Creation of Die :
-    Selecting Rectangle with the reqd dimension.
-    Selecting the Axis and co-ordinate (here it is O (0,0,0))
-    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (0.2mm)
-    Change material for Die : Edit -> Silicon
+ 1. Creation of Die :
+    a. Selecting Rectangle with the reqd dimension.
+    b. Selecting the Axis and co-ordinate (here it is O (0,0,0))
+    c. Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (0.2mm)
+    d. Change material for Die : Edit -> Silicon
 
     S1 : Creation of Die 
  ![Image](https://github.com/user-attachments/assets/e948d3b9-0727-448b-b74b-475ed0119f9f)
@@ -69,11 +69,11 @@ Starting with model design –> First model is the “Die” ->> Substrate
 
 
 
-  Creation of Substrate :
-    Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
-    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
-    Rearrange the axis , so that substrate on the other side of Die.
-    Material of Substrate : FR4_epoxy
+ 2.  Creation of Substrate :
+    a. Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
+    b. Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
+    c. Rearrange the axis , so that substrate on the other side of Die.
+    d. Material of Substrate : FR4_epoxy
 
     S2 : Creation of Substrate
     
