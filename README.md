@@ -76,9 +76,10 @@ S1 : Creation of Die
     	* Rearrange the axis , so that substrate on the other side of Die.
     	* Material of Substrate : FR4_epoxy
 
-    S2 : Creation of Substrate
+S2 : Creation of Substrate
 
-    ![Image](https://github.com/user-attachments/assets/55e068bc-dcf5-49ff-b1a4-13e9321b8ad2)
+![Image](https://github.com/user-attachments/assets/f5ea9968-550f-49bf-af37-7afc94b8d8da)
+
 
 
 
@@ -112,9 +113,13 @@ S1 : Creation of Die
    * Start from middle of Die to middle of Substrate.
    *  Material->Gold
 
-    ![Image](https://github.com/user-attachments/assets/5e2b22b0-5ea1-4d84-ab8d-1b43b5c8ea7b) 
 
-    ![Image](https://github.com/user-attachments/assets/d498c950-024d-4150-bb32-5840677316f4)
+ ![Image](https://github.com/user-attachments/assets/a0ed0759-0a94-4366-b2aa-b456c9957cde)
+
+
+ ![Image](https://github.com/user-attachments/assets/12316dac-5efc-4aa6-901d-c20c3319abe2)
+
+ 
 
     
 
