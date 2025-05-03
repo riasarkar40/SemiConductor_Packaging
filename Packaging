@@ -1,0 +1,38 @@
+Module 5 : Packaging
+Steps in Ansys –
+To access thermal and electrical performance.
+We will build the model in Q3D to extract the parasitic from the design.
+
+Invoke Q3D from Ansys AEDT window.
+Starting with model design –> First model is the “Die” ->> Substrate
+  Creation of Die :
+    Selecting Rectangle with the reqd dimension.
+    Selecting the Axis and co-ordinate (here it is O (0,0,0))
+    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (0.2mm)
+    Change material for Die : Edit -> Silicon
+
+  Creation of Substrate :
+    Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
+    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
+    Rearrange the axis , so that substrate on the other side of Die.
+    Material of Substrate : FR4_epoxy
+
+  Creation of Die Attach material and Epoxy fill :
+    Die attach material to be added between Die and Substrate.
+    Create rectangle -> Size 3*3 with O(0,0,-0.1)
+    Material of Die Attach : modified epoxy
+
+  Creation of Wire Bonding :
+    Bonds need to be created between two bond pads. One on die other on substrate.
+    Bond pad creation – Creation of rectangle 
+    Position -> (0.2,0,2,0.2) ; Size -> 0.2 * 0.2  | For Die Bond Pad
+    Adding thickness : Rectangle -> Modeler ->> Surface ->>> Thicken Sheet (0.005mm)
+    Two Bond Pads : of same config one on Die other on Substrate
+    Position -> (0.2,-0.8,-0.1) ; Size -> 0.2 * 0.2  | For Substrate Bond Pad
+		  (Since Substrate is at depth of -0.1)
+
+  Bond Wire : There are different bond wire specification like JEDEC. 
+    go to Draw -> Bond wire
+    Start from middle of Die to middle of Substrate.
+    Material->Gold
+
