@@ -44,5 +44,81 @@
 
             ![Image](https://github.com/user-attachments/assets/41fece33-bcf8-4917-a9f6-42303cf6dc99)
 
+
            
-  3. Package Design and Modelling 
+2. Module 5 : Packaging of Die using Ansys Q3D
+   
+ ![image](https://github.com/user-attachments/assets/64d1d23f-638a-4384-b09f-4c5ff979398e)
+
+  Steps in Ansys –
+To access thermal and electrical performance.
+We will build the model in Q3D to extract the parasitic from the design.
+
+Invoke Q3D from Ansys AEDT window.
+Starting with model design –> First model is the “Die” ->> Substrate
+  Creation of Die :
+    Selecting Rectangle with the reqd dimension.
+    Selecting the Axis and co-ordinate (here it is O (0,0,0))
+    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (0.2mm)
+    Change material for Die : Edit -> Silicon
+
+    S1 : Creation of Die 
+    ![image](https://github.com/user-attachments/assets/9f855b39-8608-470c-a927-90b5686ce8d8)
+
+    ![image](https://github.com/user-attachments/assets/92e56dcf-9101-4f51-ad05-a4a85a6f95d2)
+
+    ![image](https://github.com/user-attachments/assets/1d4d4050-11cb-4193-8788-46867062dfc9)
+
+
+
+  Creation of Substrate :
+    Create rectangle -> Size 5*5 with O(-1,-1,-0.1)  { -0.1 is to have gap to add Die Attach fill}
+    Adding thickness : select rectangle - > go to Modeler ->> Surface ->>> Thicken Sheet (-0.5mm)
+    Rearrange the axis , so that substrate on the other side of Die.
+    Material of Substrate : FR4_epoxy
+
+    S2 : Creation of Substrate
+    ![image](https://github.com/user-attachments/assets/e3f4b6fb-1df2-4196-9733-c29fef84ce79)
+
+    ![image](https://github.com/user-attachments/assets/3febeb53-3731-417b-a68c-b234e8adaf16)
+
+    ![image](https://github.com/user-attachments/assets/49645ce8-84cb-44ca-9242-f3cd28e2923c)
+
+    ![image](https://github.com/user-attachments/assets/fa364fc4-d4b5-466c-b05c-2ef539846abb)
+
+
+
+  Creation of Die Attach material and Epoxy fill :
+    Die attach material to be added between Die and Substrate.
+    Create rectangle -> Size 3*3 with O(0,0,-0.1)
+    Material of Die Attach : modified epoxy
+
+  Creation of Wire Bonding :
+    Bonds need to be created between two bond pads. One on die other on substrate.
+    Bond pad creation – Creation of rectangle 
+    Position -> (0.2,0,2,0.2) ; Size -> 0.2 * 0.2  | For Die Bond Pad
+    Adding thickness : Rectangle -> Modeler ->> Surface ->>> Thicken Sheet (0.005mm)
+    Two Bond Pads : of same config one on Die other on Substrate
+    Position -> (0.2,-0.8,-0.1) ; Size -> 0.2 * 0.2  | For Substrate Bond Pad
+		    (Since Substrate is at depth of -0.1)
+
+      ![image](https://github.com/user-attachments/assets/0eea3875-8fc8-4680-9cc4-4b004d990c9b)
+
+      ![image](https://github.com/user-attachments/assets/b3bda1bc-eb4f-4e8e-80d8-a2e771ba63b2)
+
+
+      
+
+
+  Bond Wire : There are different bond wire specification like JEDEC. 
+    go to Draw -> Bond wire
+    Start from middle of Die to middle of Substrate.
+    Material->Gold
+
+    ![image](https://github.com/user-attachments/assets/aadde12c-f6b4-4d1c-bfd7-46df60796c00)
+
+    ![image](https://github.com/user-attachments/assets/d48f99ef-53b2-4fa4-bca7-876376d3eeea)
+
+
+    
+
