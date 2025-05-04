@@ -140,6 +140,12 @@ S2 : Creation of Substrate
 
 
 ![Image](https://github.com/user-attachments/assets/1bdc7666-5906-4dff-9298-8bc06977700b)
+
+Packaged Die
+
+![Image](https://github.com/user-attachments/assets/d0f441bc-e504-4b7f-a4d7-233192aec44f)
+
+
     
 
 
