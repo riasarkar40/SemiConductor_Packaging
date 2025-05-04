@@ -120,6 +120,13 @@ S2 : Creation of Substrate
  ![Image](https://github.com/user-attachments/assets/12316dac-5efc-4aa6-901d-c20c3319abe2)
 
 
+ Package with Bond Wire
+
+![Image](https://github.com/user-attachments/assets/6f2ed327-521c-4dff-ac53-38fce55ef89b)
+
+
+
+
 7. Molding
    
 	* Depends on package thickness.Molding will go over the entire substrate.
